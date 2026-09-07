@@ -1,0 +1,71 @@
+*{
+    font-family: Arial, "Arial Black";
+    align-content: center;
+}
+body{
+    background-color: #f890c4;
+    color: #171414;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+h1, h2{
+    color: #f4439b;
+    text-align: center;
+}
+.parrafo-titulo{
+    text-align: center;
+}
+#formacion{
+    background-color: #FFF;
+    margin: 20px;
+    padding: 20px 10px 15px 5px;
+    border-radius: 8px;
+}
+#sobre-mi, #habilidades, #proyectos, #contacto, #negacion-general, #pie-pagina, #navegacion-pagina{
+    background-color: #FFFFFF;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0, 0,1);
+}
+.destacado{
+    background-color: #e191b9;
+    padding: 15px;
+    border-left: 4px solid #ba3f7d;
+    font-weight: 500;
+}
+.tabla-bonita th, .tabla-bonita td{
+    border: 1px solid #FFFFFF;
+    padding: 10px;
+    text-align: left;
+
+}
+.tabla-bonita th{
+    background-color: #ba3f7d;
+    color: #FFFFFF;
+}
+#pie-pagina{
+    display: flex; /* hace que el contedor se vuelva flexible para poder acomodar su contenido*/
+    flex-direction: column; /* esto en conjunto de display flex hace que los elementos se acomoden de manera vertical*/
+    align-items: center; /*Alinea al centro los elementos dentro de pie-pagina*/
+    justify-content: center;
+    text-align: center;
+}
+
+a{
+    display: inline-block;        /* Aplica padding */
+    background-color: #f4439b;
+    color: #FFFFFF;
+    text-decoration: none;        /* Quita la rayita */
+    padding: 10px 18px;
+    border-radius: 6px;
+    font-weight: bold;
+    margin-right: 15px;
+}
+#navegacion-pagina{
+    display: flex; /* hace que el contedor se vuelva flexible para poder acomodar su contenido*/
+    align-items: center; /*Alinea al centro los elementos dentro de pie-pagina*/
+    justify-content: center;
+    text-align: center;
+}
